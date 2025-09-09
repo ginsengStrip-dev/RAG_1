@@ -1,16 +1,20 @@
-# 🧠 RAG Pipeline with Google Gemma-3-270M-IT
+📚 PDF Research Assistant (RAG with Gemma + ChromaDB)
 
-This repository demonstrates how to build a **Retrieval-Augmented Generation (RAG)** system using the [Google Gemma-3-270M-IT](https://huggingface.co/google/gemma-3-270m-it) model from Hugging Face.  
-The pipeline retrieves relevant documents, injects them into the prompt, and generates grounded answers with citations and optional summarization.
+A Retrieval-Augmented Generation (RAG) system built in Python to query research papers (PDFs) using local Hugging Face LLMs (Gemma 270M-IT).
+The pipeline extracts text from PDFs, generates embeddings, stores them in ChromaDB, and retrieves context to answer questions with citations.
 
----
+✨ Features
 
-## 🚀 Features
-- 🔎 **Retriever**: Fetches top-k relevant documents from a vector store.  
-- 💡 **Gemma LLM**: Uses `google/gemma-3-270m-it` for local inference.  
-- 📚 **Context Injection**: Passes retrieved context into the LLM prompt.  
-- 🔗 **Citations**: Includes sources in the final answer.  
-- 📝 **Summarization**: Optional concise answer summary.  
-- 📜 **History Tracking**: Keeps track of queries, answers, and sources.  
-- ⏳ **Streaming Simulation**: (Optional) prints responses progressively.  
+📄 PDF ingestion with text chunking
 
+🔎 Semantic search with embeddings (all-MiniLM-L6-v2)
+
+🧠 MMR re-ranking for diverse retrieval
+
+📑 Citations in answers ([filename - page])
+
+🗂 Persistent vector store with ChromaDB
+
+🤖 Local LLM (Gemma 3 270M-IT) with safe prompt handling
+
+🛡 Fallback if no relevant context is found
