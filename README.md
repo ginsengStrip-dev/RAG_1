@@ -18,3 +18,13 @@ The pipeline extracts text from PDFs, generates embeddings, stores them in Chrom
 🤖 Local LLM (Gemma 3 270M-IT) with safe prompt handling
 
 🛡 Fallback if no relevant context is found
+# Installation
+
+Follow these steps to install and run the project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://https://github.com/ginsengStrip-dev/RAG_1
+   cd RAG_1
+   pip install -r requirements.txt
+
