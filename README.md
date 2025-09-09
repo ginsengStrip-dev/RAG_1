@@ -24,7 +24,7 @@ Follow these steps to install and run the project:
 
 1. Clone the repository:
    ```bash
-   git clone https://https://github.com/ginsengStrip-dev/RAG_1
+   git clone https://github.com/ginsengStrip-dev/RAG_1
    cd RAG_1
    pip install -r requirements.txt
 
