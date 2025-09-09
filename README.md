@@ -14,3 +14,10 @@ The pipeline retrieves relevant documents, injects them into the prompt, and gen
 - 📜 **History Tracking**: Keeps track of queries, answers, and sources.  
 - ⏳ **Streaming Simulation**: (Optional) prints responses progressively.  
 
+
+# Clone repository
+git clone https://github.com/ginsengStrip-dev/RAG_1.git
+cd RAG_1
+
+# Install dependencies
+pip install -r requirements.txt
