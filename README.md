@@ -7,15 +7,6 @@ The pipeline extracts text from PDFs, generates embeddings, stores them in Chrom
 
 📄 PDF ingestion with text chunking
 
-<<<<<<< HEAD
-
-# Clone repository
-git clone https://github.com/ginsengStrip-dev/RAG_1.git
-cd RAG_1
-
-# Install dependencies
-pip install -r requirements.txt
-=======
 🔎 Semantic search with embeddings (all-MiniLM-L6-v2)
 
 🧠 MMR re-ranking for diverse retrieval
@@ -27,4 +18,3 @@ pip install -r requirements.txt
 🤖 Local LLM (Gemma 3 270M-IT) with safe prompt handling
 
 🛡 Fallback if no relevant context is found
->>>>>>> 0019f317115ab295ae541e3c860b6eb6a4846937
